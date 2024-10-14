@@ -1,0 +1,256 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    padding: 10;
+    background: #000;
+    margin: 0;
+    position: relative;
+}
+
+.h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: #ffffff;
+}
+
+.form p {
+    font-size: 20px;
+    width: "100%";
+    padding: 15px;
+    border: 0;
+    color: aliceblue;
+    outline: none;
+    border-radius: 15px;
+    background-origin: padding-box;
+}
+
+.link {
+    text-transform: uppercase;
+    outline: 0;
+    border-radius: 10px;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #afafafdf;
+    font-size: 14px;
+    cursor: pointer;
+    position: flex;
+}
+
+.body {
+    background-color: black;
+}
+
+
+/* Add a black background color to the top navigation */
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    height: 60px;
+}
+
+
+/* Style the links inside the navigation bar */
+
+.topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    transition: all 0.3s ease;
+}
+
+
+/* Change the color of links on hover */
+
+.topnav a:hover {
+    color: blueviolet;
+}
+
+
+/* Add a color to the active/current link */
+
+.topnav a.active {
+    background-color: green;
+    color: white;
+}
+
+.body {
+    background: black;
+    cursor: default;
+}
+
+.text {
+    text-transform: none;
+    text-align: center;
+    font-size: 16px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #04AA6D;
+}
+
+.container {
+    display: inline-flex;
+    align-items: center;
+    /*vertically center content */
+    background: #000;
+}
+
+.font {
+    text-align: center;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.style {
+    background-color: black;
+}
+
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+
+/* Clear floats after image containers */
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+    border-radius: 8px;
+}
+
+body {
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row img {
+    max-width: 100%;
+    cursor: pointer;
+    border-radius: 5%;
+}
+
+.row2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row2 img {
+    max-width: 100%;
+    cursor: pointer;
+    border-radius: 5%;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer {
+    background-color: #24262b;
+    padding: 70px 0;
+    text-align: center;
+    position: flex;
+}
+
+.footer-col {
+    width: 60%;
+    padding: 0 6px;
+    background-color: #24262b;
+}
+
+.footer-col h4 {
+    font-size: 14px;
+    color: #ffffff;
+    text-decoration: solid;
+    text-transform: lowercase;
+    margin-bottom: 30px;
+    font-weight: 300;
+    position: relative;
+    background-color: #24262b;
+}
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    width: 30px;
+    text-decoration: solid;
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 30px;
+    text-size-adjust: 120%;
+    max-width: 100px;
+    display: flex;
+    margin-right: 5px;
+    /*adjust spacing between element */
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: none;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+    color: #bbbbbb;
+    display: flex;
+    margin-right: 50%;
+    transition: all 0.3s ease;
+    flex: 1;
+    text-align: center;
+}
+
+.footer-col ul li a:hover {
+    color: #ffffff;
+    padding-left: 2px;
+    text-emphasis: none;
+}
+
+.footer-col a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 200%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+
+.footer-icon {
+    background-color: #333;
+    width: 30px;
+    height: 30px;
+    margin: 0 6px;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+.link a {
+    text-decoration: none;
+}
